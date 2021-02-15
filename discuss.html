@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Q&amp;A Muhokamalar | UzScoolEducation: Bepul kodlashni o'rganing!</title>
+        <link rel="shortcut icon" href="/Images/favicon.ico" />
+        <link rel="icon" type="image/png" href="/Images/favicon-192x192.png" sizes="192x192" style="background-color: white;" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon-180x180.png" style="background-color: white;" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="style/courses.css">
+        <link rel="stylesheet" href="style/discuss.css">
+    </head>
+    <body>
+
+    <!-- HEADER - START -->
+
+        <div id="header">
+            <div class="header wrapper">
+                <div class="sandwichButton"></div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Images/logo1.png" alt="logo" width="230px">
+                    </a>
+                </div>
+                <div class="navigation-menu">
+                    <ul class="Discuss">
+                        <li id="courses">
+                            <a href="courses.html">KURSLAR  </a>
+                        </li>
+                        <!-- <li id="discuss">
+                            <a href="discuss.html">MUHOKAMALAR</a>
+                        </li> -->
+                        <li id="leaders">
+                            <a href="topLearners.html">TOP O'QITUVCHILAR</a>
+                        </li>
+                        <li id="blogPage">
+                            <a href="/Blog/">BLOG</a>
+                        </li>
+                        <li class="signin">
+                            <a href="/Profile/">SIGN IN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!-- HEADER - END -->
+
+    <!-- DISCUSS - START -->
+
+        <div class="wrapper pageLayout hasSidebar Discuss">
+            <div class="content">
+                <div id="thread" class="block nopadding">
+                    <h1>Savol-javob muhokamalari</h1>
+                    <div class="questionsFilter">
+                        <div class="questionActions">
+                            <a href="/Discuss/New/?query=" class="addQuestion materialButton primary elevated">Yangi savol</a>
+                            <div class="searchQuestion">
+                                <form action="/Discuss/Search" id="searchForm" method="post">
+                                    <input data-val="true" data-val-required="The Ordering field is required." id="ordering" name="Ordering" type="hidden" value="Trending" />
+                                    <div class="ui-widget">
+                                        <input class="clearable" id="tagsInput" name="TagsSingleField" placeholder="Search..." type="text" value="" />
+                                        <span class="removeTags"></span>
+                                    </div>
+                                    <input type="submit" class="submitSearch" value="" />
+                                </form>
+                            </div>
+                        </div>
+                        <div class="questionTabs">
+                            <ul class="tabs">
+                                <li class="tab active" data-id="Trending" data-value="Trending">
+                                    <a href="/Discuss?ordering=Trending&amp;query=">Ommabop</a>
+                                </li>
+                                <li class="tab" data-id="MostRecent" data-value="MostRecent">
+                                    <a href="/Discuss?ordering=MostRecent&amp;query=">Eng so'nggi</a>
+                                </li>
+                                <li class="tab" data-id="Unanswered" data-value="Unanswered">
+                                    <a href="/Discuss?ordering=Unanswered&amp;query=">Javob berilmagan</a>
+                                </li>
+                                <li class="tab" data-id="MyQuestions" data-value="MyQuestions">
+                                    <a href="/Discuss?ordering=MyQuestions&amp;query=">Mening savollarim</a>
+                                </li>
+                                <li class="tab" data-id="MyAnswers" data-value="MyAnswers">
+                                    <a href="/Discuss?ordering=MyAnswers&amp;query=">Mening javoblarim</a>
+                                </li>
+                            </ul>
+                            <select data-val="true" data-val-required="The Ordering field is required." id="orderingSelect" name="Ordering">
+                                <option selected="selected" value="Trending">Ommabop</option>
+                                <option value="MostRecent">Eng so'nggi</option>
+                                <option value="Unanswered">Javob berilmagan</option>
+                                <option value="MyQuestions">Mening savollarim</option>
+                                <option value="MyAnswers">Mening javoblarim</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="questions">
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/516185/много-ли-тут-нас-русскоговорящих" class="postVotes">
+                                    <p>1325</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/516185/много-ли-тут-нас-русскоговорящих" class="postAnsewers">
+                                    <p>26006</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/516185/много-ли-тут-нас-русскоговорящих">много ли тут нас, русскоговорящих?</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="russian" class="tag materialButton primary elevated">russian</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/5056131/" target="_blank" class="userName">benka</a>
+                                        <p class="date" data-date="7/6/2017 5:02:16 PM">7/6/2017 5:02:16 PM</p>
+                                    </div>
+                                    <a href="/Profile/5056131" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/503c0cd0-5b22-4f10-873b-78aaceb873e5.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/1316935/welcome-to-sololearn-forum" class="postVotes">
+                                    <p>2760</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/1316935/welcome-to-sololearn-forum" class="postAnsewers">
+                                    <p>1538</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/1316935/welcome-to-sololearn-forum">Welcome to SoloLearn forum!</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="guidelines" class="tag materialButton primary elevated">guidelines</span>
+                                        <span data-value="rules" class="tag materialButton primary elevated">rules</span>
+                                        <span data-value="welcome" class="tag materialButton primary elevated">welcome</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/2142/" target="_blank" class="userName">Yeva</a>
+                                        <p class="date" data-date="5/31/2018 9:00:17 AM">5/31/2018 9:00:17 AM</p>
+                                    </div>
+                                    <a href="/Profile/2142" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/0d48bae0-774a-4237-ba36-9ef4f29b89d0.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/524028/let-s-stay-safe-together-people" class="postVotes">
+                                    <p>896</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/524028/let-s-stay-safe-together-people" class="postAnsewers">
+                                    <p>816</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/524028/let-s-stay-safe-together-people">Let&#39;s stay safe together, people! &#128110;</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="abuse" class="tag materialButton primary elevated">abuse</span>
+                                        <span data-value="challenges" class="tag materialButton primary elevated">challenges</span>
+                                        <span data-value="fake" class="tag materialButton primary elevated">fake</span>
+                                        <span data-value="let&#39;s" class="tag materialButton primary elevated">let&#39;s</span>
+                                        <span data-value="moderators" class="tag materialButton primary elevated">moderators</span>
+                                        <span data-value="report" class="tag materialButton primary elevated">report</span>
+                                        <span data-value="safe" class="tag materialButton primary elevated">safe</span>
+                                        <span data-value="stay" class="tag materialButton primary elevated">stay</span>
+                                        <span data-value="together" class="tag materialButton primary elevated">together</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/1607351/" target="_blank" class="userName">Kuba Siekierzyński</a>
+                                        <p class="date" data-date="7/9/2017 4:37:01 PM">7/9/2017 4:37:01 PM</p>
+                                    </div>
+                                    <a href="/Profile/1607351" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/10ae20c8-7064-4d0f-9704-1b67ead9f00c.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/475577/post-your-underdog-codes-here" class="postVotes">
+                                    <p>415</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/475577/post-your-underdog-codes-here" class="postAnsewers">
+                                    <p>8954</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/475577/post-your-underdog-codes-here">Post your underdog codes here!</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="advertisment" class="tag materialButton primary elevated">advertisment</span>
+                                        <span data-value="codes" class="tag materialButton primary elevated">codes</span>
+                                        <span data-value="popular" class="tag materialButton primary elevated">popular</span>
+                                        <span data-value="share" class="tag materialButton primary elevated">share</span>
+                                        <span data-value="upvotes" class="tag materialButton primary elevated">upvotes</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/4694984/" target="_blank" class="userName">Maart</a>
+                                        <p class="date" data-date="6/18/2017 7:25:48 PM">6/18/2017 7:25:48 PM</p>
+                                    </div>
+                                    <a href="/Profile/4694984" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/cb7251a0-187d-4f18-88a3-17f100a0ea5c.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2600489/how-how-do-i-make-a-3d-game" class="postVotes">
+                                    <p>13</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2600489/how-how-do-i-make-a-3d-game" class="postAnsewers">
+                                    <p>64</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2600489/how-how-do-i-make-a-3d-game">How how do I make a 3D game?</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="playground" class="tag materialButton primary elevated">playground</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/20309532/" target="_blank" class="userName">Lucas</a>
+                                        <p class="date" data-date="11/23/2020 5:00:50 PM">11/23/2020 5:00:50 PM</p>
+                                    </div>
+                                    <a href="/Profile/20309532" target="_blank" class="avatar">
+                                        <img src="/Images/NoAvatar.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/497411/post-all-helpful-codes-here" class="postVotes">
+                                    <p>188</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/497411/post-all-helpful-codes-here" class="postAnsewers">
+                                    <p>4113</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/497411/post-all-helpful-codes-here">Post all helpful codes here</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="codes" class="tag materialButton primary elevated">codes</span>
+                                        <span data-value="hunt" class="tag materialButton primary elevated">hunt</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/3355885/" target="_blank" class="userName">Ehtesham Ali</a>
+                                        <p class="date" data-date="6/29/2017 9:17:46 AM">6/29/2017 9:17:46 AM</p>
+                                    </div>
+                                    <a href="/Profile/3355885" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/5239a3b1-54e6-4888-8f0e-e9164d1a7b62.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2602791/how-many-level-i-should-pass-here-solo-learn-to-become-an-intermediate-user-at-python" class="postVotes">
+                                    <p>10</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2602791/how-many-level-i-should-pass-here-solo-learn-to-become-an-intermediate-user-at-python" class="postAnsewers">
+                                    <p>47</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2602791/how-many-level-i-should-pass-here-solo-learn-to-become-an-intermediate-user-at-python">
+                                            How many level i should pass here (solo learn)to become an intermediate user at python ???
+                                        </a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="aaaaa" class="tag materialButton primary elevated">aaaaa</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/19575106/" target="_blank" class="userName">Aref</a>
+                                        <p class="date" data-date="11/25/2020 3:36:09 PM">11/25/2020 3:36:09 PM</p>
+                                    </div>
+                                    <a href="/Profile/19575106" target="_blank" class="avatar">
+                                        <img src="/Images/NoAvatar.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2593895/i-can-t-full-complete-c-lesson" class="postVotes">
+                                    <p>23</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2593895/i-can-t-full-complete-c-lesson" class="postAnsewers">
+                                    <p>38</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2593895/i-can-t-full-complete-c-lesson">I can&#39;t full complete C++ lesson.</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="c++" class="tag materialButton primary elevated">c++</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/20105829/" target="_blank" class="userName">⚔ Sanjar ⚔</a>
+                                        <p class="date" data-date="11/18/2020 8:17:30 AM">11/18/2020 8:17:30 AM</p>
+                                    </div>
+                                    <a href="/Profile/20105829" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/9c7352b1-f7ff-4ab6-a668-8110286b19f5.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/1270852/post-your-coding-challenge-here" class="postVotes">
+                                    <p>181</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/1270852/post-your-coding-challenge-here" class="postAnsewers">
+                                    <p>782</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/1270852/post-your-coding-challenge-here">Post your Coding Challenge Here.</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="assignment" class="tag materialButton primary elevated">assignment</span>
+                                        <span data-value="challenge" class="tag materialButton primary elevated">challenge</span>
+                                        <span data-value="wap" class="tag materialButton primary elevated">wap</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/4825354/" target="_blank" class="userName">Louis</a>
+                                        <p class="date" data-date="5/11/2018 1:00:12 AM">5/11/2018 1:00:12 AM</p>
+                                    </div>
+                                    <a href="/Profile/4825354" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/4e069f6f-d8f4-41c6-9ebf-bc4f5b6e0785.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2604557/dear-friends-i-want-a-help-for-dark-mode-or-night-mode" class="postVotes">
+                                    <p>24</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2604557/dear-friends-i-want-a-help-for-dark-mode-or-night-mode" class="postAnsewers">
+                                    <p>18</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2604557/dear-friends-i-want-a-help-for-dark-mode-or-night-mode">Dear Friends I Want a help. For Dark Mode or Night Mode.</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="animation" class="tag materialButton primary elevated">animation</span>
+                                        <span data-value="background" class="tag materialButton primary elevated">background</span>
+                                        <span data-value="css" class="tag materialButton primary elevated">css</span>
+                                        <span data-value="css3" class="tag materialButton primary elevated">css3</span>
+                                        <span data-value="html" class="tag materialButton primary elevated">html</span>
+                                        <span data-value="html5" class="tag materialButton primary elevated">html5</span>
+                                        <span data-value="java" class="tag materialButton primary elevated">java</span>
+                                        <span data-value="javascript" class="tag materialButton primary elevated">javascript</span>
+                                        <span data-value="python" class="tag materialButton primary elevated">python</span>
+                                        <span data-value="ruby" class="tag materialButton primary elevated">ruby</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/9644748/" target="_blank" class="userName">AYESHA NOOR</a>
+                                        <p class="date" data-date="11/27/2020 5:34:22 AM">11/27/2020 5:34:22 AM</p>
+                                    </div>
+                                    <a href="/Profile/9644748" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/ae022a07-55b3-4786-b262-dd1181edcb95.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2598383/speed-of-sound" class="postVotes">
+                                    <p>10</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2598383/speed-of-sound" class="postAnsewers">
+                                    <p>40</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2598383/speed-of-sound">Speed of Sound</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="help" class="tag materialButton primary elevated">help</span>
+                                        <span data-value="javascript" class="tag materialButton primary elevated">javascript</span>
+                                        <span data-value="noob" class="tag materialButton primary elevated">noob</span>
+                                        <span data-value="speedofsound" class="tag materialButton primary elevated">speedofsound</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/19976385/" target="_blank" class="userName">Andrew Medrano</a>
+                                        <p class="date" data-date="11/21/2020 8:01:11 PM">11/21/2020 8:01:11 PM</p>
+                                    </div>
+                                    <a href="/Profile/19976385" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/4f657022-5d81-4845-8005-a5bbef75197b.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/2584583/why-developing-mobile-apps-is-more-hard-resources-heavy-to-make-even-small-things-we-have-to-write" class="postVotes">
+                                    <p>34</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/2584583/why-developing-mobile-apps-is-more-hard-resources-heavy-to-make-even-small-things-we-have-to-write" class="postAnsewers">
+                                    <p>101</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/2584583/why-developing-mobile-apps-is-more-hard-resources-heavy-to-make-even-small-things-we-have-to-write">
+                                            Why developing mobile apps is more hard, resources heavy, to make even small things we have to write more and many other factors
+                                        </a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="app-development" class="tag materialButton primary elevated">app-development</span>
+                                        <span data-value="apps" class="tag materialButton primary elevated">apps</span>
+                                        <span data-value="c++" class="tag materialButton primary elevated">c++</span>
+                                        <span data-value="css" class="tag materialButton primary elevated">css</span>
+                                        <span data-value="html" class="tag materialButton primary elevated">html</span>
+                                        <span data-value="java" class="tag materialButton primary elevated">java</span>
+                                        <span data-value="js" class="tag materialButton primary elevated">js</span>
+                                        <span data-value="swift" class="tag materialButton primary elevated">swift</span>
+                                        <span data-value="web" class="tag materialButton primary elevated">web</span>
+                                        <span data-value="web-develooment" class="tag materialButton primary elevated">web-develooment</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/17431054/" target="_blank" class="userName">Arnav Kumar [&#128213;Schools&#128218;]</a>
+                                        <p class="date" data-date="11/10/2020 12:46:21 PM">11/10/2020 12:46:21 PM</p>
+                                    </div>
+                                    <a href="/Profile/17431054" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/d07b0287-cfd2-4682-9923-407152d659c0.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <div class="postStats">
+                                <a href="/Discuss/490646/don-t-you-want-advanced-courses-of-the-programing-languages-in-sololearn" class="postVotes">
+                                    <p>3210</p>
+                                    <label>Ovozlar</label>
+                                </a>
+                                <a href="/Discuss/490646/don-t-you-want-advanced-courses-of-the-programing-languages-in-sololearn" class="postAnsewers">
+                                    <p>1126</p>
+                                    <label>Javoblar</label>
+                                </a>
+                            </div>
+                            <div class="detailsWrapper">
+                                <div class="postDetails">
+                                    <p class="title">
+                                        <a href="/Discuss/490646/don-t-you-want-advanced-courses-of-the-programing-languages-in-sololearn">Don&#39;t you want advanced courses of the programing languages in sololearn?</a>
+                                    </p>
+                                    <div class="tags">
+                                        <span data-value="advanced-courses" class="tag materialButton primary elevated">advanced-courses</span>
+                                        <span data-value="courses" class="tag materialButton primary elevated">courses</span>
+                                        <span data-value="sololearn" class="tag materialButton primary elevated">sololearn</span>
+                                    </div>
+                                </div>
+                                <div class="authorDetails">
+                                    <div class="textWrapper">
+                                        <a href="/Profile/5184278/" target="_blank" class="userName">ayhem</a>
+                                        <p class="date" data-date="6/26/2017 4:00:16 AM">6/26/2017 4:00:16 AM</p>
+                                    </div>
+                                    <a href="/Profile/5184278" target="_blank" class="avatar">
+                                        <img src="https://blob.sololearn.com/avatars/6214cb3a-f44e-4e2d-b1c8-350adb95a494.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagingBody"><a href="/Discuss/?page=1" class="active">1</a><a href="/Discuss/?page=2">2</a><span class="delimiter">...</span></div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="left">
+                    <div class="block bottomSpacing discussionSidebarBlock">
+                        <a href="/Discuss/" class="discussLink">Bugungi so`rovlar</a>
+                        <div class="list">
+                            <a href="/Discuss/2606064/problem-with-global-local-variables/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">Global / mahalliy o'zgaruvchilar bilan bog'liq muammo</span>
+                            </a>
+                            <a href="/Discuss/2606874/can-someone-help-me-with-this-in-c/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">C ++ da kimdir menga bu borada yordam bera oladimi?</span>
+                            </a>
+                            <a href="/Discuss/2606358/what-s-the-output-of-this-c-b-a/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">buning natijasi qanday? c * (b * (++ a) -)</span>
+                            </a>
+                            <a href="/Discuss/2605997/i-want-to-know-about-a-great-python-course-on-youtube/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">YouTube-da ajoyib piton kursi haqida bilmoqchimanmi?</span>
+                            </a>
+                            <a href="/Discuss/2606422/typeerror-list-indices-must-be-integers-or-slices-not-tuple/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">TypeError: ro'yxat indekslari katak emas, balki butun son yoki tilim bo'lishi kerak</span>
+                            </a>
+                            <a href="/Discuss/2607026/help-me-with-pycharm/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">Menga yordam bering</span>
+                            </a>
+                            <a href="/Discuss/2606049/my-html-and-css-code-is-wrong-or-not-if-right-so-why-it-s-not-wroking-in-sololearn/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">Mening HTML va CSS kodlarim noto'g'ri yoki noto'g'ri bo'lsa, nima uchun u sololearn-da yozilmaydi?</span>
+                            </a>
+                            <a href="/Discuss/2606763/how-to-use-google-play-service-in-calculator-hider/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">Calculator Hider-da Google Play xizmatidan qanday foydalanish kerak?</span>
+                            </a>
+                            <a href="/Discuss/2607271/transportation-test-case-1-case-2-in-c-course/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">C ++ kursida transport sinovi # 1 / ish # 2</span>
+                            </a>
+                            <a href="/Discuss/2606152/what-is-different-between-js-node/">
+                                <i class="archiveIcon"></i>
+                                <span class="text">JS & NODE o'rtasidagi farq nima?</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- DISCUSS - END -->
+
+    <!-- FOOTER - START -->
+
+        <div id="footer" data-name="contacts">
+            <div class="footerTitle">
+                <p>O'YINNI O'RGANING. O'YNATISH</p>
+            </div>
+            <div class="footerContent wrapper">
+                <div class="socialCounts">
+                    <a class="footerSocial" href="https://twitter.com/SoloLearn/" target="_blank">
+                        <div class="footerTwitter"></div>
+                        <span>@UzSchoolEducation</span>
+                    </a>
+                    <a class="footerSocial" href="http://www.facebook.com/SoloLearn/" target="_blank">
+                        <div class="footerFacebook"></div>
+                        <span>UzSchoolEducation</span>
+                    </a>
+                </div>
+                <div class="about">
+                    <div class="logoFooter">
+                        <a href="#">
+                            <img src="Images/logo-footer.png" alt="logo" >
+                        </a>
+                    </div>
+                    <div>
+                        <p>UzSchoolEducation Inc.</p>
+                        <address>
+                            4 Embarcadero Center, Suite 1455 <br />
+                            San Francisco, CA 94111
+                        </address>
+                    </div>
+                    <button class="footerEmailBtn">Email Us</button>
+                </div>
+                <div class="footerMenu Discuss">
+                    <ul>
+                        <li>
+                            <a href="/" id="footerHome">Uy</a>
+                        </li>
+                        <li>
+                            <a href="/Features/">Xususiyatlar</a>
+                        </li>
+                        <li>
+                            <a href="/Courses/" id="footerCourses">Kurslar</a>
+                        </li>
+                        <li>
+                            <a href="/Blog/" id="footerBlog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/Contact/" id="footerContacts">Aloqa</a>
+                        </li>
+                        <li>
+                            <a href="/Terms-of-Use/" id="footerPrivacy-Policy">Foydalanish shartlari</a>
+                        </li>
+                        <li>
+                            <a href="/faq" id="faq">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2020 UzScoolEducation, Inc.
+            </div>
+        </div>
+
+    <!-- FOOTER - END -->
+
+        <div class="popupOverlay" id="mailingFormOutline">
+            <div class="popupWrapper">
+                <div class="popup block">
+                    <script src="https://www.google.com/recaptcha/api.js" type="dec829d4dfd9eae726947ca2-text/javascript"></script>
+                    <p>Send us a message</p>
+                    <form action="/Home/SendinputMail" id="mailingForm" method="post">
+                        <div class="popupField">
+                            <input id="name" name="Name" placeholder="Enter your name" type="text" value="" />
+                            <label for="name">Name: </label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        <div class="popupField">
+                            <input
+                                data-val="true"
+                                data-val-regex="Please enter a valid e-mail address"
+                                data-val-regex-pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+                                data-val-required="The Email field is required."
+                                id="e-mail"
+                                name="Email"
+                                placeholder="Enter your email"
+                                type="text"
+                                value=""
+                            />
+                            <label for="e-mail">Email: </label>
+                        </div>
+                        <span class="field-validation-valid" data-valmsg-for="Text" data-valmsg-replace="true"></span>
+                        <div class="popupField">
+                            <textarea cols="20" data-val="true" data-val-required="The Text field is required." id="text" name="Text" placeholder="Enter your message" rows="2"></textarea>
+                            <label for="text">Message: </label>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6LfzGgUTAAAAABluhj632xK5xt_vPsOA29ufcRa_"></div>
+                        <div class="popupButtons">
+                            <input type="submit" value="Send" data-action="submit" />
+                            <input type="button" value="Cancel" data-action="cancel" class="closePopupBtn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <script>
+            const sandwichButton = document.querySelector('.sandwichButton');
+
+            sandwichButton.addEventListener('click', function(){
+                document.querySelector('#header').classList.toggle('blocked');
+            });
+
+            const footerEmailBtn = document.querySelector('.footerEmailBtn');
+            const closePopupBtn = document.querySelector('.closePopupBtn');
+
+            footerEmailBtn.addEventListener('click', function(){
+                let popupOverlay = document.querySelector('.popupOverlay');
+                popupOverlay.style.opacity = '1';
+                popupOverlay.style.display = 'table';
+            });
+
+            closePopupBtn.addEventListener('click', function(){
+                let popupOverlay = document.querySelector('.popupOverlay');
+                popupOverlay.style.opacity = '0';
+                popupOverlay.style.display = 'none';
+            });
+        </script>
+    </body>
+</html>

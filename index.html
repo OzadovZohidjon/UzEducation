@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>UzEducation: Bepul o'rganing!</title>
+    <link rel="shortcut icon" href="/Images/favicon.ico" />
+    <link rel="icon" type="image/png" href="/Images/favicon-192x192.png" sizes="192x192"
+        style="background-color: white;" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon-180x180.png" style="background-color: white;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <link href="style/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- HEADER - START -->
+
+    <div id="homeHeaderPlaceholder" style="min-height: 100vh;"></div>
+
+    <div style="display: none;" id="homeNavigationBar">
+        <div class="home__nav">
+            <div class="home__nav__logo-container">
+                <a href="#">
+                    UzEducation
+                    <!-- <img src="Images/logo.png" alt="logo" width="230px" height="60px">  -->
+                </a>
+            </div>
+            <div id="homeNavHamburger" role="presentation" class="home__nav__burger-menu"
+                onclick="if (!window.__cfRLUnblockHandlers) return false; toggleHamburgerMenu()"
+                data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                <span class="home__nav__burger-menu__line home__nav__burger-menu__line--1"></span>
+                <span class="home__nav__burger-menu__line home__nav__burger-menu__line--2"></span>
+                <span class="home__nav__burger-menu__line home__nav__burger-menu__line--3"></span>
+            </div>
+            <nav>
+                <ul id="homeNavList" class="home__nav__list">
+                    <li class="home__nav__link">
+                        <a href="courses.html">
+                            KURSLAR
+                        </a>
+                    </li>
+                    <!-- <li class="home__nav__link">
+                            <a href="discuss.html">
+                            MUHOKAMALAR
+                            </a>
+                        </li> -->
+                    <li class="home__nav__link">
+                        <a href="topLearners.html">
+                            TOP O'QITUVCHILAR
+                        </a>
+                    </li>
+                    <!-- <li class="home__nav__link">
+                        <a href="">
+                            blog
+                        </a>
+                    </li> -->
+                    <a href="">
+                        sign in
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div style="display: none;" id="homeHeader-v1">
+        <div id="process">
+            <div class="process-container">
+                <div class="process__main-content">
+                    <div class="process__info-texts">
+                        <div class="process__header-message" id="homePageHeader-control">
+                            <h1 class="process__header-heading">
+                                Kodlashni o'rganing <br />
+                                <strong>tekinga!</strong>
+                            </h1>
+                            <h3 class="process__header-subheading">
+                                Interaktiv darslar, "yo'lda"<br />
+                                amaliyot, tengdoshlarni qo'llab-quvvatlash.
+                            </h3>
+                        </div>
+                        <div class="process__actions">
+                            <a id="process-main-action-link" class="process__action-link primary" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                                        action: 'click',
+                                        element: 'process_landingpage_startlearningnow',
+                                        redirectUrl: '/process/0'
+                                    })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                O'rganishni hoziroq boshlang!
+                            </a>
+                            <a style="height: initial;" class="process__action-link secondary" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                                        action: 'click',
+                                        element: 'process_landingpage_alreadyhaveaccount',
+                                        redirectUrl: signInButtonRedirectUrl
+                                    })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                Menda allaqachon hisob bor
+                            </a>
+                        </div>
+                    </div>
+                    <div class="process__learner">
+                        <img class="process__learner-image"
+                            src="https://sololearnassets.azureedge.net/home-header-boy.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;" id="homeHeader-v4">
+        <div class="signup-header">
+            <img class="signup-header__background signup-header__background--desktop"
+                src="https://sololearnassets.azureedge.net/header-signup-bg-desktop.svg" alt="" />
+            <img class="signup-header__background signup-header__background--tablet"
+                src="https://sololearnassets.azureedge.net/header-signup-bg-tablet.svg" alt="" />
+            <img class="signup-header__background signup-header__background--big-mobile"
+                src="https://sololearnassets.azureedge.net/header-signup-bg-big-mobile.svg" alt="" />
+            <img class="signup-header__background signup-header__background--mobile"
+                src="https://sololearnassets.azureedge.net/header-signup-bg-mobile.svg" alt="" />
+            <div class="signup-header__inner">
+                <div class="signup-header__nav">
+                    <div id="homeNavHeader" class="home__nav">
+                        <div class="home__nav__logo-container">
+                            <a href="#">
+                                UzEducation
+                                <!-- <img src="Images/logo1.png" alt="logo"> -->
+                            </a>
+                        </div>
+                        <div id="homeNavHamburger" role="presentation" class="home__nav__burger-menu"
+                            onclick="if (!window.__cfRLUnblockHandlers) return false; toggleHamburgerMenu()"
+                            data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                            <span
+                                class="home__nav__burger-menu__line home__nav__burger-menu__line--1 home__nav__burger-menu__line--white"></span>
+                            <span
+                                class="home__nav__burger-menu__line home__nav__burger-menu__line--2 home__nav__burger-menu__line--white"></span>
+                            <span
+                                class="home__nav__burger-menu__line home__nav__burger-menu__line--3 home__nav__burger-menu__line--white"></span>
+                        </div>
+                        <nav>
+                            <ul id="homeNavList" class="home__nav__list home__nav__list--white">
+                                <li class="home__nav__link home__nav__link--white">
+                                    <a href="courses.html">
+                                        kurslar
+                                    </a>
+                                </li>
+                                <!-- <li class="home__nav__link home__nav__link--white">
+                                        <a href="discuss.html">
+                                            MUHOKAMALAR
+                                        </a>
+                                    </li> -->
+                                <li class="home__nav__link home__nav__link--white">
+                                    <a href="topLearners.html">
+                                        TOP O'QITUVCHILAR
+                                    </a>
+                                </li>
+                                <!-- <li class="home__nav__link home__nav__link--white">
+                                    <a onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                        action: 'click',
+                        element: 'process_landingpage_blog',
+                        redirectUrl: '/Blog/'
+                    })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                        blog
+                                    </a>
+                                </li> -->
+                                <a id="homeNavLoginButton" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({
+                        action: 'click',
+                        element: 'process_landingpage_signin',
+                        redirectUrl: signInButtonRedirectUrl
+                    })" class="home__nav__link home__nav__link--rounded home__nav__link--rounded-white"
+                                    data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                    sign in
+                                </a>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="signup-header__inner-form">
+                    <div class="signup-header__form-container">
+                        <h1 class="signup-header__title">Bepul o'rganing!</h1>
+                        <div class="signup-header__secondary-action">
+                            <a>
+                                Profilingizga kiring
+                            </a>
+                        </div>
+                        <form id="homeSignupForm" class="signup-header__form">
+                            <fieldset id="homeSignupFieldset">
+                                <div class="signup-header__form-row">
+                                    <input class="signup-header__input" id="homeSignupEmail" type="text"
+                                        placeholder="E-mail" maxlength="50" />
+                                </div>
+                                <p class="signup-header__error" style="display: none;" id="homeSignupEmailError"></p>
+                                <div class="signup-header__form-row">
+                                    <input class="signup-header__input" id="homeSignupName" type="text"
+                                        placeholder="Name" maxlength="50" />
+                                </div>
+                                <p class="signup-header__error" style="display: none;" id="homeSignupNameError"></p>
+                                <div class="signup-header__form-row">
+                                    <input class="signup-header__input" id="homeSignupPassword" type="password"
+                                        placeholder="Password" autocomplete="new-password" maxlength="128" />
+                                    <a onclick="if (!window.__cfRLUnblockHandlers) return false; homeHeaderShowPass()"
+                                        id="homeSignUpPassEyeClosed" class="signup-header__password-eye"
+                                        data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                        <img src="Images/password-eye-open.svg" />
+                                    </a>
+                                    <a onclick="if (!window.__cfRLUnblockHandlers) return false; homeHeaderShowPass()"
+                                        id="homeSignUpPassEyeOpen" class="signup-header__password-eye"
+                                        style="display: none;" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                                        <img src="Images/password-eye.svg" />
+                                    </a>
+                                </div>
+                                <p class="signup-header__error" style="display: none;" id="homeSignupPasswordError"></p>
+                                <div id="homeSignupErrors" class="signup-header__server-validation"></div>
+                                <p class="signup-header__terms">Ro'yxatdan o'tish orqali siz bizning <a
+                                        href="/Terms-of-Use/" target="_blank"
+                                        class="signup-header__terms-link">Foydalanish shartlari</a> ga rozilik
+                                    bildirasiz</p>
+                                <div class="signup-header__submit-container">
+                                    <div style="display: none;" id="homeSignupLoader" class="signup-header__loader">
+                                        <div class="signup-header__spinner"></div>
+                                    </div>
+                                    <input class="signup-header__submit" id="homeSignupSubmit" type="submit"
+                                        value="Boshlash" />
+                                </div>
+                            </fieldset>
+                        </form>
+                        <div class="signup-header__form-devider">
+                            <span>Yoki ro'yxatdan o'ting</span>
+                        </div>
+                        <div class="signup-header__social-logins">
+                            <button class="signup-header__social-login" id="googleLoginButton">
+                                <img src="Images/header-signup-google.svg" alt="" />
+                            </button>
+                            <button class="signup-header__social-login" id="facebookButton">
+                                <img src="Images/header-signup-facebook.svg" alt="" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER - END -->
+
+    <!-- COURSES - START -->
+
+    <div id="home-courses">
+        <div class="home-courses-wrapper">
+            <div class="home-courses">
+                <div class="home-courses__course-container" data-category="">
+                    <a class="home-courses__course-container__link" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                                action: 'click',
+                                element: 'process_landingpage_takecourse_Python',
+                                redirectUrl: '/Course/Python/'
+                            })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                        <div style="background-color: #204766;" class="home-courses__course-container__icon-container">
+                            <img class="home-courses__course-container__icon-container__icon"
+                                src="Images/home-new/1073.png" alt="not found" />
+                        </div>
+                        <div class="home-courses__course-container__info">
+                            <div class="home-courses__course-container__info-inner">
+                                <span class="home-courses__course-container__info__header">
+                                    Python 3
+                                </span>
+                                <span class="home-courses__course-container__info__description">
+                                    Python-ni o'rganing, bugungi kunda eng talab qilinadigan dasturlash tillaridan biri
+                                    - yo'lda! Python kodini yozishni mashq qiling, ballar yig'ing va o'z mahoratingizni
+                                    namoyish eting!
+                                </span>
+                            </div>
+                            <span class="home-courses__course-container__info__btn">
+                                Ushbu Kursga Yozilish
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="home-courses__course-container" data-category="">
+                    <a class="home-courses__course-container__link" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                                action: 'click',
+                                element: 'process_landingpage_takecourse_CPlusPlus',
+                                redirectUrl: '/Course/CPlusPlus/'
+                            })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                        <div style="background-color: #406185;" class="home-courses__course-container__icon-container">
+                            <img class="home-courses__course-container__icon-container__icon"
+                                src="Images/home-new/1051.png" alt="not found" />
+                        </div>
+                        <div class="home-courses__course-container__info">
+                            <div class="home-courses__course-container__info-inner">
+                                <span class="home-courses__course-container__info__header">
+                                    C++
+                                </span>
+                                <span class="home-courses__course-container__info__description">
+                                    Bizning C ++ o'quv qo'llanmamiz asosiy tushunchalar, ma'lumotlar turlari, massivlar,
+                                    ko'rsatgichlar, shartli bayonotlar, ko'chadanlar, funktsiyalar, sinflar, ob'ektlar,
+                                    merosxo'rlik va polimorfizmni o'z ichiga oladi.
+                                </span>
+                            </div>
+                            <span class="home-courses__course-container__info__btn">
+                                Ushbu Kursga Yozilish
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="home-courses__course-container" data-category="">
+                    <a class="home-courses__course-container__link" onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                                action: 'click',
+                                element: 'process_landingpage_takecourse_Java',
+                                redirectUrl: '/Course/Java/'
+                            })" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                        <div style="background-color: #263b4a;" class="home-courses__course-container__icon-container">
+                            <img class="home-courses__course-container__icon-container__icon"
+                                src="Images/home-new/1068.png" alt="not found" />
+                        </div>
+                        <div class="home-courses__course-container__info">
+                            <div class="home-courses__course-container__info-inner">
+                                <span class="home-courses__course-container__info__header">
+                                    Java
+                                </span>
+                                <span class="home-courses__course-container__info__description">
+                                    Bizning interaktiv Java kursimiz bilan siz ob'ektga yo'naltirilgan Java dasturlarini
+                                    o'rganasiz va deyarli qisqa vaqt ichida aniq va to'g'ri kod yozish qobiliyatiga ega
+                                    bo'lasiz.
+                                </span>
+                            </div>
+                            <span class="home-courses__course-container__info__btn">
+                                Ushbu Kursga Yozilish
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a onclick="if (!window.__cfRLUnblockHandlers) return false; slTrack({ 
+                action: 'click',
+                element: 'process_landingpage_viewcourses',
+                redirectUrl: '/Courses/'
+            })" class="home-courses__view-all" data-cf-modified-40c2bd55cde5aa2f705f03c9-="">
+                Barcha Ommabop Kurslarimizni Ko'rib CHiqish &#8594;
+            </a>
+        </div>
+    </div>
+
+    <!-- COURSES - END -->
+
+    <!-- STORES-INFORMATION - START -->
+
+    <div id="stores-information" class="stores-information">
+        <div class="stores-informations-new__wrapper">
+            <div class="stores-information__content">
+                <h1 class="stores-information__title">Istalgan vaqtda mavjud & Har qanday joyda BEPUL!</h1>
+                <div class="stores-information__features">
+                    <div class="stores-information__features-item">
+                        <img src="Images/home-new/check.svg" alt="" />
+                        <span>Internetda va yo'lda bilim oling.</span>
+                    </div>
+                    <div class="stores-information__features-item">
+                        <img src="Images/home-new/check.svg" alt="" />
+                        <span>Barcha asosiy qurilmalarda va platformalarda mavjud.</span>
+                    </div>
+                    <div class="stores-information__features-item">
+                        <img src="Images/home-new/check.svg" alt="" />
+                        <span>Har doim to'xtagan joyingizni oling.</span>
+                    </div>
+                    <div class="stores-information__features-item">
+                        <img src="Images/home-new/check.svg" alt="" />
+                        <span>Har qachongidan ham sodda va yoqimli!</span>
+                    </div>
+                </div>
+                <div class="stores-information__counts">
+                    <div class="stores-information__counts-item">
+                        <span class="counts-item-count">40,154,270</span>
+                        <span class="counts-item-text">O'quvchilar</span>
+                    </div>
+                    <div class="stores-information__counts-item">
+                        <span class="counts-item-count">2056</span>
+                        <span class="counts-item-text">Darslar</span>
+                    </div>
+                    <!-- <div class="stores-information__counts-item">
+                        <span class="counts-item-count">15,331</span>
+                        <span class="counts-item-text">Viktorinalar</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="stores-information__image-section">
+                <img class="stores-information__image-phone" src="Images/home-new/stores-info-phone.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <!-- STORES-INFORMATION - END -->
+
+    <!-- REVIEWS - START -->
+
+    <div id="home-reviews" class="home-reviews">
+        <div class="home-reviews__container">
+            <p class="home-reviews__container__title">
+                Siz yaxshi portaldasiz.
+            </p>
+            <p class="home-reviews__container__subtitle">Butun O`zbekistondagi <span> 3,500,00 dan ortiq o'quvchilar
+                </span>
+                barcha turdagi qurilmalarda bizning dasturlarimizdan foydalanadilar.</p>
+            <div class="review-new__container__divider-line"></div>
+            <div class="home-reviews__container__comments">
+                <div class="home-reviews__container__comments__quote-container">
+                    <img class="home-reviews__container__comments__quote-container__image"
+                        src="Images/home-new/quote.svg" alt="not found" />
+                </div>
+                <div class="home-reviews__container__comments__item">
+                    <p class="home-reviews__container__comments__item__description">
+                        Ehtimol, telefonimdan foydalanishning eng yaxshi usuli. Bu darsni o'rganishning inqilobiy usuli.
+                        Har bir savol / bo'limga sharhlar haqiqiy dunyo nuqtai nazarini qo'shadi.
+                    </p>
+                    <div class="home-reviews__container__comments__item__user">
+                        <img class="home-reviews__container__comments__item__user__avatar" src="Images/1MatWatson.jpg"
+                            alt="Mat Watson " />
+                        <div class="home-reviews__container__comments__item__user__info">
+                            <p class="home-reviews__container__comments__item__user__info__name">Odil Hakimov</p>
+                            <p class="home-reviews__container__comments__item__user__info__lang">Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-reviews__container__comments__item">
+                    <p class="home-reviews__container__comments__item__description">
+                        Vau ... demoqchimanki ... VO! O'g'il bolalar va qizlar, bunga intiling ... Aytmoqchimanki, bu
+                        juda sodda, juda chiroyli va yaxshi tashkil etilgan. Men har xil narsalar uchun bepul,
+                        o'z-o'zini o'rganish vositalarini qidirib topdim va bu eng yaxshisi. Juda yaxshi! Aytgancha,
+                        hamjamiyat doim yordam berishga tayyor.
+                    </p>
+                    <div class="home-reviews__container__comments__item__user">
+                        <img class="home-reviews__container__comments__item__user__avatar" src="Images/2NevileRuas.jpg"
+                            alt="Nevile Ruas " />
+                        <div class="home-reviews__container__comments__item__user__info">
+                            <p class="home-reviews__container__comments__item__user__info__name">Javohir Rustamov</p>
+                            <p class="home-reviews__container__comments__item__user__info__lang">HTML</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-reviews__container__comments__item">
+                    <p class="home-reviews__container__comments__item__description">
+                        Rahmat! Asta-sekin o'qitish bilan ajoyib dastur. Siz, bizda juda ko'p ta'sir
+                        o'tkazyapsiz. Darslarni o'rganishga universitetga imkonim yo'q edi. Katta rahmat. Shunday davom
+                        eting.
+                    </p>
+                    <div class="home-reviews__container__comments__item__user">
+                        <img class="home-reviews__container__comments__item__user__avatar" src="Images/3OdjerOnline.jpg"
+                            alt="Odjer Online " />
+                        <div class="home-reviews__container__comments__item__user__info">
+                            <p class="home-reviews__container__comments__item__user__info__name">Odil Ozadov</p>
+                            <p class="home-reviews__container__comments__item__user__info__lang">Java</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REVIEWS - END -->
+
+    <!-- BECOME-MEMBER - START -->
+
+    <div id="home-become-member" class="home-become-member">
+        <div class="home-become-member__container">
+            <p class="home-become-member__container__title">
+                Bizning jamoamiz a'zosi bo'ling!<br />
+            </p>
+            <a href="" class="home-become-member__container__btn">
+                O'rganishni hoziroq boshlang!
+            </a>
+        </div>
+    </div>
+
+    <!-- BECOME-MEMBER - END -->
+
+    <!-- FOOTER - START -->
+
+    <div class="home__footer">
+        <div class="home__footer__inner">
+            <div class="home__footer__app-download-section">
+                <span class="home__footer__app-download-section__title">
+                    BIZ BILAN BEPUL O'RGANING.
+                </span>
+                <div class="home__footer__app-download-section__actions">
+                    <a class="home__footer__app-download-section__actions-link"
+                        href="https://itunes.apple.com/us/app/sololearn-learn-to-code/id1210079064?mt=8"
+                        target="_blank">
+                        <img src="Images/home-new/app-store.svg" alt="app-store-badge" />
+                    </a>
+                    <a class="home__footer__app-download-section__actions-link"
+                        href="https://play.google.com/store/apps/details?id=com.sololearn" target="_blank">
+                        <img src="Images/home-new/google-play.svg" alt="play-store-badge" />
+                    </a>
+                </div>
+            </div>
+            <div class="home__footer__divider"></div>
+            <div class="home__footer__content-section">
+                <div class="home__footer__content-section__inner">
+                    <div class="home__footer__info">
+                        <div class="home__footer__icon-container">
+                            <a href="#">
+                                UzEducation
+                                <!-- <img src="Images/logo-footer.png" alt="logo"> -->
+                            </a>
+                        </div>
+                        <span class="home__footer__copyright">
+                            &copy;2021 UzEducation.
+                        </span>
+                        <!-- <span class="home__footer__address">
+                            4 Embarcadero Center, Suite 1455<br />
+                            San Francisco, CA 94111
+                        </span> -->
+                    </div>
+                    <nav class="home__footer__navigation">
+                        <ul>
+                            <li class="home__footer__navigation__item">
+                                <a href="/">Uy</a>
+                            </li>
+                            <li class="home__footer__navigation__item">
+                                <a href="/Features/">Xususiyatlar</a>
+                            </li>
+                            <li class="home__footer__navigation__item">
+                                <a href="/Courses/">Kurslar</a>
+                            </li>
+                            <!-- <li class="home__footer__navigation__item">
+                                <a href="/Blog/">Blog</a>
+                            </li> -->
+                        </ul>
+                        <ul>
+                            <li class="home__footer__navigation__item">
+                                <a href="/Contact/">Aloqa</a>
+                            </li>
+                            <li class="home__footer__navigation__item">
+                                <a href="/Terms-of-Use/">Foydalanish shartlari</a>
+                            </li>
+                            <li class="home__footer__navigation__item">
+                                <a href="/faq/">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="home__footer__social">
+                    <a class="home__footer__social__item" href="http://www.facebook.com/SoloLearn/" target="_blank">
+                        <svg id="facebook" viewBox="0 0 27 27" style="fill: currentColor;">
+                            <path
+                                d="M25.92 0H1.08C.483 0 0 .483 0 1.08v24.84C0 26.517.483 27 1.08 27h24.84c.597 0 1.08-.483 1.08-1.08V1.08C27 .483 26.517 0 25.92 0zm-3.119 7.88h-2.156c-1.691 0-2.018.804-2.018 1.985v2.602h4.036l-.526 4.074h-3.51V27h-4.209V16.544h-3.52v-4.077h3.52V9.463c0-3.486 2.13-5.386 5.241-5.386c1.492 0 2.771.111 3.146.162v3.642h-.003z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="home__footer__social__item" href="https://twitter.com/SoloLearn/" target="_blank">
+                        <svg id="twitter" viewBox="0 0 29 29" style="fill: currentColor;">
+                            <path
+                                d="M27.585 0H1.15C.514 0 0 .514 0 1.15v26.435c0 .636.514 1.15 1.15 1.15h26.435c.636 0 1.15-.514 1.15-1.15V1.15C28.735.514 28.22 0 27.585 0zm-5.484 10.406c.01.168.01.344.01.517c0 5.273-4.015 11.346-11.353 11.346c-2.263 0-4.36-.657-6.128-1.788c.323.036.632.05.962.05a8.003 8.003 0 0 0 4.954-1.703a3.99 3.99 0 0 1-3.729-2.765c.615.09 1.168.09 1.8-.072a3.987 3.987 0 0 1-3.193-3.915v-.05c.528.298 1.15.48 1.8.506a3.992 3.992 0 0 1-1.779-3.319c0-.743.194-1.422.543-2.011a11.324 11.324 0 0 0 8.225 4.17c-.564-2.712 1.462-4.907 3.897-4.907c1.15 0 2.184.482 2.913 1.257a7.881 7.881 0 0 0 2.532-.959a3.97 3.97 0 0 1-1.753 2.195a7.889 7.889 0 0 0 2.3-.621a8.361 8.361 0 0 1-2.001 2.069z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="home__footer__social__item" href="https://www.instagram.com/sololearn/" target="_blank">
+                        <svg id="instagram" viewBox="0 0 29 29" style="fill: currentColor;">
+                            <path
+                                d="M14.496 7.06a7.43 7.43 0 0 0-7.44 7.44a7.43 7.43 0 0 0 7.44 7.44a7.43 7.43 0 0 0 7.44-7.44a7.43 7.43 0 0 0-7.44-7.44zm0 12.275A4.846 4.846 0 0 1 9.661 14.5a4.846 4.846 0 0 1 4.835-4.835a4.846 4.846 0 0 1 4.835 4.835a4.846 4.846 0 0 1-4.835 4.835zm7.745-14.314c-.962 0-1.738.777-1.738 1.738s.776 1.738 1.738 1.738c.96 0 1.737-.773 1.737-1.738a1.735 1.735 0 0 0-1.737-1.738zm6.757 9.479c0-2.002.018-3.987-.094-5.985c-.112-2.322-.642-4.382-2.34-6.08c-1.7-1.701-3.758-2.227-6.08-2.34C18.484-.017 16.499.001 14.5.001c-2.003 0-3.987-.018-5.985.094c-2.322.113-4.382.642-6.08 2.34C.734 4.136.208 6.193.095 8.515C-.017 10.517.001 12.5.001 14.5s-.018 3.987.094 5.985c.113 2.322.642 4.382 2.34 6.08c1.701 1.701 3.758 2.227 6.08 2.34c2.002.112 3.986.094 5.985.094c2.002 0 3.986.018 5.985-.094c2.321-.113 4.382-.643 6.08-2.34c1.7-1.701 2.227-3.758 2.34-6.08c.115-1.998.093-3.983.093-5.985zm-3.192 8.553a4.609 4.609 0 0 1-1.095 1.662a4.64 4.64 0 0 1-1.662 1.095c-1.907.759-6.438.588-8.553.588c-2.115 0-6.649.17-8.557-.584a4.609 4.609 0 0 1-1.661-1.096a4.64 4.64 0 0 1-1.096-1.66c-.754-1.913-.584-6.443-.584-8.558s-.17-6.65.584-8.557A4.61 4.61 0 0 1 4.278 4.28a4.689 4.689 0 0 1 1.661-1.095c1.908-.755 6.442-.584 8.557-.584s6.65-.17 8.557.584c.66.265 1.154.584 1.661 1.095a4.64 4.64 0 0 1 1.096 1.662c.754 1.908.584 6.442.584 8.557s.17 6.645-.588 8.553z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER - END -->
+
+
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="40c2bd55cde5aa2f705f03c9-|49" defer=""></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
